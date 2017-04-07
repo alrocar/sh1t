@@ -12,7 +12,7 @@ done < input.txt > stage1.txt
 sort -n stage1.txt > stage2.txt
 
 # Last, remove the number from the start of each line.
-sed -r 's/^[0-9]+ //' stage2.txt > stage3.txt
+ssed -r 's/^[0-9]+ //' stage2.txt > stage3.txt
 
 # Show our output
 head -n "$lines" stage3.txt
