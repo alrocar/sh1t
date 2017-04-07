@@ -1,3 +1,4 @@
 requirements: ssed, jot
 
-rndlines.sh: Script for extracting random lines from a text file
+rndlines.sh: Extracts random lines from a text file
+split.sh: Splits a CSV file into chunks of N lines
